@@ -30,7 +30,7 @@ def versao_base_sequencial(n_tarefas, tamanho_tarefa):
 
 #versão 2: otimizada (numba e sequencial) 
 def versao_otimizada_sequencial(n_tarefas, tamanho_tarefa):
-    #aquecimento do JIT (cessa parte foi o chat que recomendou)
+    #aquecimento do JIT 
     tarefa_pesada_jit(0, 1) 
     
     total = 0
